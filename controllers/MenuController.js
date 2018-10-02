@@ -16,6 +16,7 @@ module.exports = class MenuController {
             }
         ];
         this.contacts = [];
+        this.remindMeText = [];
     }
     main(){
         console.log("Welcome to AddressBloc!");
@@ -59,5 +60,13 @@ module.exports = class MenuController {
     exit(){
         console.log("Thanks for using Address Bloc");
         process.exit();
+    }
+
+    getContactCount(){
+        return this.contacts.length;
+    }
+
+    remindMe(){
+        return this.remindMeText[0];
     }
 }
