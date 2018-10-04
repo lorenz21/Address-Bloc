@@ -16,7 +16,6 @@ module.exports = class MenuController {
             }
         ];
         this.contacts = [];
-        this.remindMeText = [];
     }
     main(){
         console.log("Welcome to AddressBloc!");
@@ -67,6 +66,6 @@ module.exports = class MenuController {
     }
 
     remindMe(){
-        return this.remindMeText[0];
+        return "Learning is a life-long pursuit";
     }
 }
