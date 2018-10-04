@@ -82,11 +82,7 @@ module.exports = class MenuController {
     }
 
     remindMe(){
-<<<<<<< HEAD
-		return this.remindMeText[0];
-=======
         return "Learning is a life-long pursuit";
->>>>>>> checkpoint-2-testing
     }
 
     getContacts(){
