@@ -18,8 +18,7 @@ module.exports = class MenuController {
                 ]
             }
         ];
-        this.remindMeText = [];
-        this.book = new ContactController();
+        this.contacts = [];
     }
     main(){
         console.log("Welcome to AddressBloc!");
@@ -83,7 +82,7 @@ module.exports = class MenuController {
     }
 
     remindMe(){
-		return this.remindMeText[0];
+        return "Learning is a life-long pursuit";
     }
 
     getContacts(){
